@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>ZongWuInsertAction</servlet-name>
+    <servlet-class>organization.ZongWuInsertAction </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ZongWuInsertAction</servlet-name>
+    <url-pattern>/ZongWuInsertAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ZongWuListAction</servlet-name>
+    <servlet-class>organization.ZongWuListAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ZongWuListAction</servlet-name>
+    <url-pattern>/ZongWuListAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ModifyAction</servlet-name>
+    <servlet-class>organization.ModifyAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ModifyAction</servlet-name>
+    <url-pattern>/ModifyAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GetCodeAction</servlet-name>
+    <servlet-class>organization.GetCodeAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetCodeAction</servlet-name>
+    <url-pattern>/GetCodeAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ZongWuDelAction</servlet-name>
+    <servlet-class>organization.ZongWuDelAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ZongWuDelAction</servlet-name>
+    <url-pattern>/ZongWuDelAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>TitleListAction</servlet-name>
+    <servlet-class>staff.TitleListAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TitleListAction</servlet-name>
+    <url-pattern>/TitleListAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>TitleInsertAction</servlet-name>
+    <servlet-class>staff.TitleInsertAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TitleInsertAction</servlet-name>
+    <url-pattern>/TitleInsertAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>TitleDelAction</servlet-name>
+    <servlet-class>staff.TitleDelAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TitleDelAction</servlet-name>
+    <url-pattern>/TitleDelAction</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>GetidAction</servlet-name>
+    <servlet-class>staff.GetidAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetidAction</servlet-name>
+    <url-pattern>/GetidAction</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+      <servlet>
+    <servlet-name>TitleModifyAction</servlet-name>
+    <servlet-class>staff.TitleModifyAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TitleModifyAction</servlet-name>
+    <url-pattern>/TitleModifyAction</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      <servlet>
+    <servlet-name>PostModifyAction</servlet-name>
+    <servlet-class>post.PostModifyAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PostModifyAction</servlet-name>
+    <url-pattern>/PostModifyAction</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>GetPostidAction</servlet-name>
+    <servlet-class>post.GetPostidAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetPostidAction</servlet-name>
+    <url-pattern>/GetPostidAction</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+    <servlet>
+    <servlet-name>PostListAction</servlet-name>
+    <servlet-class>post.PostListAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PostListAction</servlet-name>
+    <url-pattern>/PostListAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PostInsertAction</servlet-name>
+    <servlet-class>post.PostInsertAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PostInsertAction</servlet-name>
+    <url-pattern>/PostInsertAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PostDelAction</servlet-name>
+    <servlet-class>post.PostDelAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PostDelAction</servlet-name>
+    <url-pattern>/PostDelAction</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</web-app>
